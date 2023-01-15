@@ -1,0 +1,56 @@
+body {
+  margin: 0; background-color: #1B244A;
+  color: white
+}
+p{
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+h3{
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 21px;
+  margin-top: 68px;
+}
+.scoreboard{
+  background-color: #080001; 
+  height: 120px; width: 155px;
+  border-radius: 5px;
+}
+#points-home{
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D; 
+}
+#points-guests{
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #F94F6D; 
+}
+.point-buttons{
+  display: flex; justify-content: space-between;
+  margin-top: 26px;
+}
+button{
+  border: 2px solid #9AABD8;
+  border-radius: 5px; background-color: #1B244A;
+  color: #9AABD8;
+  height: 45px; width: 45px;
+  cursor: pointer;
+}
